@@ -42,11 +42,11 @@
 
 ## Featured Projects
 
-| Project | What it does | Stack |
-|---|---|---|
-| [**Anemia Detection via Eye Conjunctiva Color**](#) | Non-invasive anemia screening from a single eye photo — an SVM model classifies anemic vs. non-anemic with **95% accuracy**, wrapped in a simple web app. Built with a 4-person team, delivered in 3 months. | `Python` `scikit-learn` `SVM` |
-| [**ML + Blockchain Fraud Detection**](#) | Real-time fraud detection for digital transactions — a Python ML model feeds a permissioned blockchain ledger for an **85%-accurate**, tamper-proof audit trail. | `Python` `ML` `Blockchain` |
-
+| Project | What it does | Highlights | Stack |
+|---|---|---|---|
+| [**quire**](https://github.com/Aradhyagodambe/quire) <br>*Solo project* | A personal RAG assistant that answers questions about your own PDFs with citations back to the source file and page, using a fully local open-source model. | • Cross-encoder reranking on top of embedding retrieval<br>• Per-document filtering and conversational follow-ups<br>• 4-bit quantized Zephyr-7B runs on a single free Colab T4<br>• No document content leaves the runtime | `Python` `LlamaIndex` `Zephyr-7B` `Sentence Transformers` `pymupdf4llm` |
+| [**Anemia Detection via Eye Conjunctiva Color**](https://github.com/Aradhyagodambe/Anaemia-Detection-Image-Classification) <br>*Team of 4 · 3 months* <br>[Live demo](https://anaemia-detection-image-classification.onrender.com) | Non-invasive anemia screening from a single eye photo. An SVM classifies anemic vs. non-anemic and is served through a minimal Flask web app. | • **95% accuracy**<br>• 512-dimensional 3D color histogram features via OpenCV<br>• Albumentations preprocessing<br>• Deployed on Render with Gunicorn | `Python` `scikit-learn` `SVM` `Flask` `OpenCV` `Tailwind CSS` |
+| [**Machine Learning from Scratch**](https://github.com/Aradhyagodambe/ML-Scratch) <br>*Solo project* | Classical ML algorithms implemented with only Python and NumPy, to internalize the underlying math and optimization rather than rely on frameworks. | • Linear & Logistic Regression, KNN, Naive Bayes done<br>• SVM, Decision Trees, Random Forest, K-Means, PCA in progress<br>• A Deep Learning repo is planned next | `Python` `NumPy` |
 <br>
 
 ## Connect With Me
